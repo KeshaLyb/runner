@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - OnGround
+  - BarrierMinPoint
+  - BarrierPoint
   layers:
   - Default
   - TransparentFX
