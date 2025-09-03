@@ -23,6 +23,7 @@ public class PointsController : MonoBehaviour
                 points = 0;
                 gameObject.SetActive(false);
             }
+            other.gameObject.transform.GetChild(0).gameObject.SetActive(false);
             textPoint.text = $"Points: {points}";
         }
     }

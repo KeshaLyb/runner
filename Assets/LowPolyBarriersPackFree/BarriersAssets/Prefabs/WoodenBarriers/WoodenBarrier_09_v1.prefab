@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4222815408608841435}
   - component: {fileID: 2125280610355116561}
   - component: {fileID: 6703171550841936590}
+  - component: {fileID: 2108096424158792354}
   m_Layer: 0
   m_Name: WoodenBarrier_09_v1
   m_TagString: BarrierMinPoint
@@ -104,8 +105,20 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 4.179134, y: 1.5065291, z: 1.2173301}
-  m_Center: {x: -0.012068307, y: 0.61834764, z: -0.004691687}
+  m_Size: {x: 4.179134, y: 1.4437542, z: 0.83396536}
+  m_Center: {x: -0.012068307, y: 0.5869602, z: -0.09651107}
+--- !u!114 &2108096424158792354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467951067566595012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8880b7908541d804a92fb687772fa34c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5756544596488380203
 GameObject:
   m_ObjectHideFlags: 0
@@ -157,5 +170,5 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.8899162, y: 0.2671768, z: 2.9837146}
-  m_Center: {x: -0.08112448, y: 0.16441445, z: 2.333706}
+  m_Size: {x: 3.8899162, y: 0.2671768, z: 3.6424763}
+  m_Center: {x: -0.08112448, y: 0.16441445, z: 2.3061645}
